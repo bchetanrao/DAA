@@ -55,7 +55,7 @@ Largest Minimum Distance
 
 **Test case**
 
-Find max
+Find Largest Minimum Distance between any two (consecutive points among the k points) in the given array.
 ```
 Test Case-1
 Input:
