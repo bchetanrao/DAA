@@ -59,23 +59,39 @@ Find max
 ```
 Test Case-1
 Input:
-6
-2 4 8 0 2 1
+Please enter the size of array :-                                                                                                               
+5                                                                                                                                               
+Please enter the array :-                                                                                                                       
+1 2 8 4 9                                                                                                                                       
+Please enter the value of k :-                                                                                                                  
+3                                                                                                                                               
+ 
 Out:
-8
+Largest minimum distance = 3 
+
 #--------------------------#
 Test Case-2
 Input:
-6
-2 4 8 0 2 1
+Please enter the size of array :-                                                                                                               
+6                                                                                                                                               
+Please enter the array :-                                                                                                                       
+1 2 7 5 11 12                                                                                                                                   
+Please enter the value of k :-                                                                                                                  
+3                                                                                                                                               
+
 Out:
-8
+Largest minimum distance = 5  
+
 ```
 
 ---
 
 ### Theory
-The Solution to this problem is based on Binary Search which uses the Divide and Conquer algorithm technique. Here, We first sort the array. Now we know that the maximum possible value result is arr[n-1] – arr[0] (for k = 2). We do binary search for maximum result for given k. We start with the middle of maximum possible result. If middle is a feasible solution, we search on right half of mid. Else we search is left half. To check feasibility, we place k elements under given mid-distance.
+The Solution to this problem is based on Binary Search which uses the Divide and Conquer algorithm technique. Divide and Conquer algo involves 3 steps- 
+Divide: This involves dividing the problem into some sub problem.
+Conquer: Sub problem by calling recursively until sub problem solved.
+Combine: The Sub problem Solved so that we will get find problem solution. 
+Here, We first sort the array. Now we know that the maximum possible value result is arr[n-1] – arr[0] (for k = 2). We then do binary search for maximum result for given k. We start with the middle of maximum possible result. If middle is a feasible solution, we search on right half of mid. Else we search is left half. To check feasibility, we place k elements under given mid-distance.
 
 ---
 
@@ -93,4 +109,5 @@ A quick and simplified answer is that Lorem Ipsum refers to text that the DTP (D
 
 ### References
 
+https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/
 https://www.geeksforgeeks.org/place-k-elements-such-that-minimum-distance-is-maximized/
