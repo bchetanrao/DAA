@@ -37,7 +37,7 @@ cd assignment_04
 
 #Create file
 touch readme.md
-touch main.py
+touch code.c
 .
 .
 ```
