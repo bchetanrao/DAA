@@ -99,11 +99,19 @@ Here, We first sort the array. Now we know that the maximum possible value resul
 
 **Time Complexity**
 
-A quick and simplified answer is that Lorem Ipsum refers to text that the DTP (Desktop Publishing) industry use as replacement text when the real text is not available. Lorem Ipsum is dummy text which has no meaning however looks very similar to real text.
+The overall complexity of the question is O(n*logn).
+For Sorting the given array time complexity will be O(n*logn).
+Our algorithm uses binary search to find the maximum distance possible for given value of k and the complexity of binary search is O(log n).
+To check the feasibility for the given value of k and mid value ,we will traverse the array .Time complexity in worst case will be O(n).
+
+Overall time complexity = O(n*logn)    
+
+---
 
 **Space Complexity**
 
-A quick and simplified answer is that Lorem Ipsum refers to text that the DTP (Desktop Publishing) industry use as replacement text when the real text is not available. ... Lorem Ipsum is dummy text which has no meaning however looks very similar to real text.
+No extra space is used in this algorithm , so auxiliary space is constant.Only the input array is of size n.
+Space Complexity = Input Space + Auxiliary Space ,which in turn equal to O(n).
 
 ---
 
