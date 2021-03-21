@@ -117,7 +117,7 @@ Space Complexity = Input Space + Auxiliary Space ,which in turn equal to O(n).
 
 ### References
 
-https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/ 
-https://www.geeksforgeeks.org/place-k-elements-such-that-minimum-distance-is-maximized/ 
-https://www.tutorialspoint.com/place-k-elements-such-that-minimum-distance-is-maximized-in-cplusplus 
+https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/   
+https://www.geeksforgeeks.org/place-k-elements-such-that-minimum-distance-is-maximized/    
+https://www.tutorialspoint.com/place-k-elements-such-that-minimum-distance-is-maximized-in-cplusplus     
 
