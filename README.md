@@ -37,7 +37,7 @@ cd assignment_04
 
 #Create file
 touch readme.md
-touch code.c
+touch solution.cpp
 .
 .
 ```
@@ -45,7 +45,7 @@ touch code.c
 
 Run the code
 ```
-gcc code.c
+g++ solution.cpp
 ```
 Output
 ```
